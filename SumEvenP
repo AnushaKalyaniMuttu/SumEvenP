@@ -1,0 +1,11 @@
+def sum_of_evens(numbers):
+    total = 0
+    for number in numbers:
+        if number % 2 == 0:
+            total += number
+    return total
+
+# Example usage
+numbers = [1, 2, 3, 4, 5, 6]
+sum_even = sum_of_evens(numbers)
+print(f"Sum of even numbers: {sum_even}")
